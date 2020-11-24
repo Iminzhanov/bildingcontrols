@@ -16,6 +16,10 @@ body {
   font-family: 'Inter';
 }
 
+.col-4 {
+  width: 33.33%;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,20 +123,21 @@ body {
 
 .hero__demo {
   cursor: pointer;
-  padding: 12px 20px;
+  padding: 13px 25px;
   color: white;
   background-color: #212B31;
   outline: none;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 .hero__more {
   cursor: pointer;
-  padding: 12px 20px;
+  padding: 13px 25px;
   color: black;
   background-color: white;
   outline: none;
-  border-radius: 7px;
+  border-radius: 4px;
+  margin: 10px;
 }
 
 .hero__img {

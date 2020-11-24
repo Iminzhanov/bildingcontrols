@@ -19,20 +19,21 @@
     }
     &__demo {
         cursor: pointer;
-        padding: 12px 20px;
+        padding: 13px 25px;
         color: white;
         background-color: #212B31;
         outline: none;
-        border-radius: 7px;
+        border-radius: 4px;
     }
     &__more {
         cursor: pointer;
-        padding: 12px 20px;
+        padding: 13px 25px;
         color: black;
         background-color: white;
         outline: none;
-        border-radius: 7px;
-    }
+        border-radius: 4px;
+        margin: 10px;
+        }
     &__img {
         padding-top: 88px;
         display: flex;
@@ -42,5 +43,4 @@
     &__track {
         padding-top: 36px;
     }
-
 }
