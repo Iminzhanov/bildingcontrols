@@ -187,4 +187,31 @@ body {
   line-height: 24px;
   color: #72787D;
 }
+
+.construction {
+  padding-top: 142px;
+}
+
+.construction__row {
+  text-align: center;
+}
+
+.construction h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #212B31;
+}
+
+.construction p {
+  width: 1025px;
+  height: 96px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #72787D;
+  padding-bottom: 40px;
+}
 /*# sourceMappingURL=index.css.map */
