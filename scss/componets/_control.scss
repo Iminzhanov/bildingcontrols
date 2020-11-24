@@ -1,0 +1,15 @@
+.control {
+    padding-top: 144px;
+    &__description {
+       text-align: center
+    }
+    h3 {
+        max-width: 762px;
+        margin: auto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 48px;
+        color: #212B31;
+    }
+}
