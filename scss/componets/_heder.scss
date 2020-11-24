@@ -1,8 +1,10 @@
 .header {
-    display: flex;
-    justify-content: space-between;
     padding-top: 34px;
     padding-left: 30px;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
     &__logo {
         display: flex;
         align-items: center;
@@ -20,7 +22,6 @@
     .nav {
         &__menu {
             display: flex;
-            padding-right: 3%;
             align-items: center;
         }
         &__item {
@@ -34,7 +35,6 @@
                 color:  #036FC7;
             }
         }
-    
         &__type {
             padding-left: 20px;
         }
