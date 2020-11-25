@@ -1,0 +1,91 @@
+.reliability {
+    margin-top: 50px;
+    
+    &__relib{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .relib{
+        &__box{
+            // border: 2px solid red;
+            width: 240px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        &__title{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            color: #212B31;
+        }
+        &__img{
+            width: 43px;
+            height: 41px;
+            position: absolute;
+            right: 25px;
+            top: 0;
+        }
+        &__description{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 32px;
+            text-align: center;
+            color: #72787D;  
+            max-width: 700px;    
+            margin-bottom: 50px;      
+        }
+    }
+    &__col-3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-3{
+        &__items{
+            width: 30%;
+            height: 255px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__img{
+            width: 48px;
+            height: 48px;
+            margin-bottom: 20px;
+        }
+        &__theme{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+            color: #212B31;
+            margin-bottom: 11px;
+        }
+        &__description{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #72787D;         
+        }
+    }
+    &__info{
+        width: 100%;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        background-color: #F6F8F9;
+        height: 130px;
+        padding: 0 40px;
+        left: 0;
+        
+    }
+}
