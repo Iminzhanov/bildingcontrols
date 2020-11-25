@@ -1,15 +1,20 @@
 .icon {
     padding-top: 40px;
     background-color: white;
+    padding-bottom: 20px;
     &__row {
         display: flex;
         flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     &__images {
         display: flex;
         justify-content: center;
         img {
             padding-left: 39px;
+            width: 180px;
+            height: 76px;
         }
     }
     &__img {
@@ -17,6 +22,10 @@
         flex-wrap: wrap;
         margin-left: 20px;
         justify-content: center;
+    }
+    img {
+        width: 180px;
+        height: 76px;
     }
     
 }
