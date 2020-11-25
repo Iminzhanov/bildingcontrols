@@ -32,5 +32,29 @@
         font-size: 20px;
         line-height: 32px;
         color: #72787D;
+        padding-bottom: 28px;
+    }
+    &__chevron {
+        position: relative;
+        text-align: center;
+        padding: 12px;
+        margin-bottom: 6px;
+        height: 60px;
+        width: 200px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: #212B31;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 24px;
+            left: 9px;
+            height: 45%;
+            width: 92%;
+            background: #FFD042;
+            z-index: -1;
+        }
     }
 }
