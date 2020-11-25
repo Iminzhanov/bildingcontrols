@@ -1,0 +1,22 @@
+.icon {
+    padding-top: 40px;
+    background-color: white;
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__images {
+        display: flex;
+        justify-content: center;
+        img {
+            padding-left: 39px;
+        }
+    }
+    &__img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        justify-content: center;
+    }
+    
+}

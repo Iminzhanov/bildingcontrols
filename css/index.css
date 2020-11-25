@@ -238,6 +238,7 @@ body {
 
 .control {
   padding-top: 144px;
+  padding-bottom: 40px;
 }
 
 .control__description {
@@ -304,5 +305,43 @@ body {
   width: 92%;
   background: #FFD042;
   z-index: -1;
+}
+
+.icon {
+  padding-top: 40px;
+  background-color: white;
+}
+
+.icon__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.icon__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon__images img {
+  padding-left: 39px;
+}
+
+.icon__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=index.css.map */
