@@ -45,6 +45,7 @@
     &__col-3{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 62px;
     }
     .col-3{
         &__items{
@@ -75,17 +76,45 @@
             line-height: 24px;
             text-align: center;
             color: #72787D;         
-        }
+        } 
     }
     &__info{
-        width: 100%;
+        max-width: 100%;
         display: flex;
-        // justify-content: space-between;
         align-items: center;
         background-color: #F6F8F9;
         height: 130px;
         padding: 0 40px;
-        left: 0;
-        
+        margin-bottom: 145px;
+    }
+    .info{
+        &__ikon{
+            width: 40px;
+            height: 40px;
+        }
+        &__theme{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+            color: #212B31;  
+            margin-left: 26px;          
+        }
+        &__button{
+            width: 149px;
+            height: 50px;
+            background: #FFFFFF;
+            border: 1px solid #DADEDF;
+            box-sizing: border-box;
+            border-radius: 4px;
+            outline: none;
+            margin-left: 80px;
+            transition: 0.3s;
+        }
+        &__button:active{
+            transform: scale(0.96);
+            transition: 0.3s;
+            
+        }
     }
 }
