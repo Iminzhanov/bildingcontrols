@@ -301,7 +301,7 @@ body {
   position: absolute;
   top: 24px;
   left: 9px;
-  height: 45%;
+  height: 16px;
   width: 92%;
   background: #FFD042;
   z-index: -1;
@@ -424,5 +424,111 @@ body {
 
 .build__row img {
   padding-left: 10%;
+}
+
+.delivery {
+  padding-top: 140px;
+}
+
+.delivery__description {
+  text-align: center;
+}
+
+.delivery__description h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #212B31;
+  padding-bottom: 21px;
+}
+
+.delivery__description p {
+  width: 643px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #72787D;
+  margin-left: 20%;
+  padding-bottom: 50px;
+}
+
+.delivery__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.delivery__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+}
+
+.delivery__type {
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+.delivery__type h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212B31;
+  padding-bottom: 11px;
+}
+
+.delivery__type p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787D;
+}
+
+.delivery__others {
+  padding-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.delivery__others p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #72787D;
+}
+
+.delivery__chevron {
+  position: relative;
+  text-align: center;
+  margin-bottom: 6px;
+  height: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #212B31;
+}
+
+.delivery__chevron::before {
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  height: 16px;
+  width: 94%;
+  background: #FFD042;
+  z-index: -1;
 }
 /*# sourceMappingURL=index.css.map */
