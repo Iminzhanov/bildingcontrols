@@ -308,9 +308,7 @@ body {
 }
 
 .icon {
-  padding-top: 40px;
-  background-color: white;
-  padding-bottom: 20px;
+  padding: 40px 0;
 }
 
 .icon__row {
@@ -319,8 +317,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 40px 0;
 }
 
 .icon__images {
@@ -333,9 +330,8 @@ body {
 }
 
 .icon__images img {
-  padding-left: 39px;
-  width: 180px;
-  height: 76px;
+  padding-left: 10px;
+  margin-right: 10px;
 }
 
 .icon__img {
