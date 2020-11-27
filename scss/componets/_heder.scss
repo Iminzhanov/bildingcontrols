@@ -30,7 +30,7 @@
         }
         &__link {
             margin-left: 20px;
-            color: #72787D;
+            color: #72787D; 
             &:hover {
                 color:  #036FC7;
             }
@@ -48,4 +48,22 @@
         }
     }
 }
+
+
+@media screen and (max-width: 570px) {
+    .header {
+        padding: 10px 1px 0; 
+        &__row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .nav {
+            &__menu {
+                display: none;
+            }
+        }
+    }
+}
+
 

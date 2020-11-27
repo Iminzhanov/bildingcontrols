@@ -59,3 +59,36 @@
         }
     }
 }
+@media screen and (max-width:570px) {
+    .control {
+        padding-top: 0;
+        h3 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        &__row {
+            padding-top: 10px;
+        }
+        &__columns {
+            width: 100%;
+        }
+        h4 {
+            font-size: 19px;
+            line-height: 30px;
+            text-align: center;
+            padding-bottom: 2px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+        }
+        &__chevron {
+            margin-left: 10px;
+        }
+        img {
+            width: 100%;
+            padding: 20px 0 0;
+        }
+    }
+}

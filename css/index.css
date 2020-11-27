@@ -11,7 +11,7 @@
 }
 
 .container {
-  width: 1057px;
+  max-width: 1057px;
   margin: 0 auto;
 }
 
@@ -26,6 +26,15 @@ li {
 body {
   background-color: #E5E5E5;
   font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 570px) {
+  .header__container {
+    padding: 0 20px;
+  }
+  .container {
+    padding: 0 20px;
+  }
 }
 
 .col-4 {
@@ -110,6 +119,25 @@ body {
   border-radius: 8px;
 }
 
+@media screen and (max-width: 570px) {
+  .header {
+    padding: 10px 1px 0;
+  }
+  .header__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .nav__menu {
+    display: none;
+  }
+}
+
 .hero {
   padding-top: 112px;
 }
@@ -176,6 +204,37 @@ body {
   padding-top: 36px;
 }
 
+@media screen and (max-width: 570px) {
+  .hero {
+    padding: 20px 0 0;
+  }
+  .hero__description {
+    line-height: 30px;
+    text-align: center;
+    color: #212B31;
+    font-size: 20px;
+  }
+  .hero__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero__img {
+    padding-top: 10px;
+  }
+  .hero__img img {
+    width: 100%;
+  }
+  .hero__track {
+    padding-top: 5px;
+  }
+}
+
 .categories {
   padding-top: 148px;
 }
@@ -208,6 +267,16 @@ body {
   color: #72787D;
 }
 
+@media screen and (max-width: 570px) {
+  .categories {
+    padding-top: 30px;
+  }
+  .categories__columns {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
 .construction {
   padding-top: 142px;
 }
@@ -234,6 +303,24 @@ body {
   line-height: 32px;
   color: #72787D;
   padding-bottom: 40px;
+}
+
+@media screen and (max-width: 570px) {
+  .construction {
+    padding-top: 0;
+  }
+  .construction h3 {
+    font-size: 22px !important;
+    padding-bottom: 0;
+  }
+  .construction p {
+    line-height: 28px !important;
+    font-size: 13px !important;
+    padding-bottom: 0;
+  }
+  .construction img {
+    width: 100%;
+  }
 }
 
 .control {
@@ -307,6 +394,40 @@ body {
   z-index: -1;
 }
 
+@media screen and (max-width: 570px) {
+  .control {
+    padding-top: 0;
+  }
+  .control h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .control__row {
+    padding-top: 10px;
+  }
+  .control__columns {
+    width: 100%;
+  }
+  .control h4 {
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 2px;
+  }
+  .control p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .control__chevron {
+    margin-left: 10px;
+  }
+  .control img {
+    width: 100%;
+    padding: 20px 0 0;
+  }
+}
+
 .icon {
   padding: 40px 0;
 }
@@ -349,6 +470,21 @@ body {
 .icon img {
   width: 180px;
   height: 76px;
+}
+
+@media screen and (max-width: 570px) {
+  .icon {
+    padding: 0;
+  }
+  .icon__columns {
+    width: 100%;
+  }
+  .icon img {
+    width: 50%;
+  }
+  .icon__img img {
+    padding-right: 15px;
+  }
 }
 
 .build {
@@ -420,6 +556,37 @@ body {
 
 .build__row img {
   padding-left: 10%;
+}
+
+@media screen and (max-width: 570px) {
+  .build {
+    padding-top: 20px;
+  }
+  .build__row {
+    padding-top: 20px;
+  }
+  .build h4 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  .build p {
+    font-size: 14px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+  }
+  .build__columns {
+    width: 100%;
+  }
+  .build img {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .build h5 {
+    padding: 10px 0;
+    text-align: center;
+  }
 }
 
 .delivery {
@@ -526,5 +693,45 @@ body {
   width: 94%;
   background: #FFD042;
   z-index: -1;
+}
+
+@media screen and (max-width: 570px) {
+  .delivery {
+    padding-top: 5px;
+  }
+  .delivery h5 {
+    font-size: 25px;
+    padding: 0;
+  }
+  .delivery p {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .delivery__columns {
+    width: 100%;
+  }
+  .delivery__others {
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .delivery__chevron {
+    font-size: 19px;
+    height: 28px;
+  }
+  .delivery__p {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=index.css.map */

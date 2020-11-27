@@ -22,3 +22,22 @@
         padding-bottom: 40px;
     }
 }
+@media screen and (max-width:570px) {
+    .construction {
+        padding-top: 0;
+        h3 {
+            font-size: 22px !important;
+            padding-bottom: 0;
+        }
+        p {
+            line-height: 28px !important;
+            font-size: 13px !important;
+            padding-bottom: 0;
+        }
+        img {
+            width: 100%;
+            
+        }
+        
+    }
+}
