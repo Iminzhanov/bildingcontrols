@@ -1,5 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.header__container {
+    max-width: 1280px;
+    margin: auto;
+}
 .container {
-    width: 1057px;
+    max-width: 1057px;
     margin: 0 auto;
 }
 a {
@@ -18,4 +27,13 @@ h1,h2,h3,h4,h5,h6{
 }
 p{
     margin: 0;
+}
+@media screen and (max-width: 570px) {
+    .header__container {
+        padding: 0 20px;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    
 }

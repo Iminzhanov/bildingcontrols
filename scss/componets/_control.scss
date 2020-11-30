@@ -1,5 +1,6 @@
 .control {
     padding-top: 144px;
+    padding-bottom: 40px;
     &__description {
        text-align: center
     }
@@ -11,5 +12,83 @@
         font-size: 32px;
         line-height: 48px;
         color: #212B31;
+
+    }
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 168px;
+    }
+    h4 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 48px;
+        color: #212B31;
+        padding-bottom: 20px;
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: #72787D;
+        padding-bottom: 28px;
+    }
+    &__chevron {
+        position: relative;
+        text-align: center;
+        padding: 12px;
+        margin-bottom: 6px;
+        height: 60px;
+        width: 200px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: #212B31;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 24px;
+            left: 9px;
+            height: 16px;
+            width: 92%;
+            background: #FFD042;
+            z-index: -1;
+        }
+    }
+}
+@media screen and (max-width:570px) {
+    .control {
+        padding-top: 0;
+        h3 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        &__row {
+            padding-top: 10px;
+        }
+        &__columns {
+            width: 100%;
+        }
+        h4 {
+            font-size: 19px;
+            line-height: 30px;
+            text-align: center;
+            padding-bottom: 2px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+        }
+        &__chevron {
+            margin-left: 10px;
+        }
+        img {
+            width: 100%;
+            padding: 20px 0 0;
+        }
     }
 }
