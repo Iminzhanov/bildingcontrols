@@ -84,6 +84,10 @@ span {
   margin-left: 184px;
 }
 
+.companies__item:nth-child(1) {
+  margin: 0;
+}
+
 .companies__description {
   text-align: center;
 }
@@ -111,6 +115,6 @@ span {
 }
 
 .footer {
-  padding: 144px 0;
+  padding: 98px 0;
 }
 /*# sourceMappingURL=index.css.map */
