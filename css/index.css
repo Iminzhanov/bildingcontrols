@@ -103,7 +103,7 @@ span {
 }
 
 .offer__items {
-  padding: 138px 56px;
+  padding: 144px 46px;
   background: url(../img/offer.png);
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -115,6 +115,25 @@ span {
 }
 
 .footer {
-  padding: 98px 0;
+  padding: 128px 0;
+}
+
+.footer__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer__title {
+  margin-bottom: 32px;
+}
+
+.footer__top {
+  margin-bottom: 168px;
+}
+
+.footer__bottom {
+  margin: 30px 0;
 }
 /*# sourceMappingURL=index.css.map */
