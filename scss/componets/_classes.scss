@@ -1,0 +1,11 @@
+.btn{
+    outline: none;
+    transition: 00.3s;
+}
+.btn:active{
+    transform: scale(0.96);
+    transition: 0.3s;
+}
+.flex{
+    display: flex;
+}
