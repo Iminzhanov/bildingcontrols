@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -27,7 +28,14 @@ body {
   background-color: #E5E5E5;
   font-family: 'Inter', sans-serif;
   margin: 0;
-  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 @media screen and (max-width: 570px) {
@@ -343,11 +351,6 @@ body {
   line-height: 48px;
   color: #212B31;
 }
-/*# sourceMappingURL=index.css.map */
-
-.for{
-  background-color:  #212B31;
-}
 
 .control__row {
   display: -webkit-box;
@@ -433,6 +436,295 @@ body {
     width: 100%;
     padding: 20px 0 0;
   }
+}
+
+.reliability {
+  margin-top: 50px;
+}
+
+.reliability__relib {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reliability .relib__box {
+  width: 240px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.reliability .relib__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+}
+
+.reliability .relib__img {
+  width: 43px;
+  height: 41px;
+  position: absolute;
+  right: 25px;
+  top: 0;
+}
+
+.reliability .relib__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #72787D;
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+
+.reliability__col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 62px;
+}
+
+.reliability .col-3__items {
+  width: 30%;
+  height: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reliability .col-3__img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.reliability .col-3__theme {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #212B31;
+  margin-bottom: 11px;
+}
+
+.reliability .col-3__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #72787D;
+}
+
+.reliability__info {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F6F8F9;
+  height: 130px;
+  padding: 0 40px;
+  margin-bottom: 145px;
+}
+
+.reliability .info__ikon {
+  width: 40px;
+  height: 40px;
+}
+
+.reliability .info__theme {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #212B31;
+  margin-left: 26px;
+}
+
+.reliability .info__button {
+  width: 149px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #DADEDF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  margin-left: 80px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.reliability .info__button:active {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.for {
+  background-color: #212B31;
+  padding-top: 145px;
+  color: white;
+  position: relative;
+}
+
+.for__info {
+  width: 550px;
+}
+
+.for__img {
+  position: absolute;
+  top: 145px;
+  right: 0;
+}
+
+.for__col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 62px;
+}
+
+.for .col-3__items {
+  width: 30%;
+  height: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.for .col-3__img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.for .col-3__theme {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 11px;
+}
+
+.for .col-3__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.for .info__theme {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 50px;
+}
+
+.for .info__btn2 {
+  width: 149px;
+  height: 50px;
+  margin-bottom: 140px;
+  border: 1px solid #DADEDF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  background-color: transparent;
+  margin-left: 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.for .info__btn2:hover {
+  background: #FFFFFF;
+  border: 1px solid #DADEDF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+}
+
+.for .list__item {
+  list-style-type: circle;
+  color: white;
+  margin-left: 20px;
+}
+
+.for .item__theme {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.for .item__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-left: 20px;
+  margin-bottom: 24px;
 }
 
 .icon {
@@ -740,5 +1032,259 @@ body {
   .delivery__p {
     text-align: center;
   }
+}
+
+.btn {
+  outline: none;
+  -webkit-transition: 00.3s;
+  transition: 00.3s;
+}
+
+.btn:active {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work__left {
+  width: 50%;
+}
+
+.work .left__theme {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #212B31;
+  margin-bottom: 21px;
+}
+
+.work .left__description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  width: 380px;
+  color: #72787D;
+  margin-bottom: 60px;
+}
+
+.work .left__img {
+  width: 336px;
+  height: 392px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.work .left__img:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Параметры тени */
+  padding: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.work__right {
+  width: 50%;
+}
+
+.work .right {
+  /* Style the buttons that are used to open and close the accordion panel */
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Style the accordion panel. Note: hidden by default */
+}
+
+.work .right__accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #212B31;
+}
+
+.work .right__accordion:hover {
+  background-color: #212B31;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.work .right__panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.work .right__btn2 {
+  width: 149px;
+  height: 50px;
+  margin-top: 40px;
+  border: 1px solid #212B31;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  background-color: transparent;
+  margin-left: 16px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.work .right__btn2:hover {
+  background: #212B31;
+  border: 1px solid #DADEDF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+}
+
+.work .right .panel__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787D;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.work .right .panel__text:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.work .right__number {
+  padding: 10px;
+  border: 2px solid #DADEDF;
+  margin-right: 32px;
+}
+
+.work .right .number {
+  text-align: center;
+}
+
+.why {
+  margin-top: 100px;
+}
+
+.why__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+  margin-bottom: 20px;
+}
+
+.why__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #212B31;
+  margin-bottom: 104px;
+}
+
+.why__left {
+  width: 50%;
+}
+
+.why .right {
+  /* Style the buttons that are used to open and close the accordion panel */
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Style the accordion panel. Note: hidden by default */
+}
+
+.why .right__accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #212B31;
+}
+
+.why .right__accordion:hover {
+  background-color: #212B31;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.why .right__panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.why .right .panel__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787D;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.why .right .panel__text:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.why .right__number {
+  padding: 10px;
+  border: 2px solid #DADEDF;
+  margin-right: 32px;
+}
+
+.why .right .number {
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */

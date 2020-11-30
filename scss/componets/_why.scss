@@ -1,0 +1,117 @@
+.why{
+    margin-top: 100px;
+    &__title{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #212B31;
+        margin-bottom: 20px;
+    }
+    &__subtitle{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #212B31;
+        margin-bottom: 104px;
+    }
+    &__left{
+        width: 50%;
+    }
+    
+    .right{
+        /* Style the buttons that are used to open and close the accordion panel */
+        &__accordion {
+            background-color: #fff;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            margin-bottom: 15px;
+            transition: 0.3s;
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 24px;
+            color: #212B31;
+        }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        &__accordion:hover {
+            background-color: #212B31;
+            color: #fff;
+            transition: 0.3s;
+            
+        }
+
+        /* Style the accordion panel. Note: hidden by default */
+        &__panel {
+            // border-radius: 20px;
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+            padding-left: 20px;
+            
+        }
+        // &__btn2{
+        //     width: 149px;
+        //     height: 50px;
+        //     margin-top: 40px;
+        //     border: 1px solid #212B31;
+        //     box-sizing: border-box;
+        //     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+        //     border-radius: 4px;
+        //     background-color: transparent;  
+        //     margin-left: 16px;
+        //     cursor: pointer;
+        //     transition: 0.3s;
+            
+
+        //     color: black;        
+        //     font-style: normal;
+        //     font-weight: normal;
+        //     font-size: 18px;
+        //     line-height: 24px;
+        //     text-align: center; 
+        // }
+        // &__btn2:hover{
+        //     background: #212B31;
+        //     border: 1px solid #DADEDF;
+        //     transition: 0.3s;
+        //     color: white;
+        // }
+
+        .panel{
+            &__text{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #72787D;
+                // margin-top: 15px;
+                margin-bottom: 15px;
+                text-align: center;
+                border-radius: 10px;
+            }
+            &__text:hover{
+                box-shadow: 0 0 10px rgba(0,0,0,0.6);
+            }
+        }
+        &__number{
+            padding: 10px;
+            border: 2px solid #DADEDF;
+            margin-right: 32px;
+        }
+        .number{
+            text-align: center;
+        }
+    }
+}
